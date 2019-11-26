@@ -20,3 +20,6 @@ DIRSTACKSIZE=30
 
 # custom aliases
 alias vi="vim"
+
+# color ls
+alias ls="ls -G"
