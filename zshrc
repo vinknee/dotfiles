@@ -23,3 +23,7 @@ alias vi="vim"
 
 # color ls
 alias ls="ls -G"
+
+# up arrow searches through history
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
