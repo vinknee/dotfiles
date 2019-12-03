@@ -17,6 +17,7 @@ setopt globdots
 #pushd default on
 setopt autopushd
 DIRSTACKSIZE=30
+popd() { builtin popd "@$" > /dev/null; }
 
 # custom aliases
 alias vi="vim"
